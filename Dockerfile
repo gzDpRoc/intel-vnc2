@@ -16,4 +16,4 @@ RUN echo 'cd /noVNC-1.2.0' >>/roc.sh
 RUN echo './utils/launch.sh  --vnc localhost:7900 --listen 19999 ' >>/roc.sh
 RUN chmod 755 /roc.sh
 EXPOSE 19999
-CMD  /roc.sh 
+CMD  /roc.sh
