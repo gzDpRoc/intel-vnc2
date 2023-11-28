@@ -1,4 +1,4 @@
-FROM debian
+FROM dryqg45w.mirror.aliyuncs.com/library/debian
 RUN dpkg --add-architecture i386
 RUN apt install debian-keyring debian-archive-keyring
 RUN apt update
