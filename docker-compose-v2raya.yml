@@ -1,0 +1,10 @@
+version: '3'
+services:
+    v2raya:
+        environment:
+            V2RAYA_LOG_FILE: "/tmp/v2raya.log"
+        image: "mzz2017/v2raya:1.5.8"
+        restart: always
+        ports:
+            - "2017:2017"
+            - "20170-20172:20170-20172"
