@@ -8,3 +8,8 @@ services:
         ports:
             - "2017:2017"
             - "20170-20172:20170-20172"
+    roc-vnc:
+        image: "registry.us-west-1.aliyuncs.com/dproc/us-roc:vnc-1.0"
+        restart: always
+        ports:
+            - "19999:19999"
