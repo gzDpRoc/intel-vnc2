@@ -1,0 +1,7 @@
+version: '3'
+services:
+    roc-vnc:
+        image: "registry.us-west-1.aliyuncs.com/dproc/us-roc:vnc-1.0"
+        restart: always
+        ports:
+            - "19999:19999"
